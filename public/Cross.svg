@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.0.3 (7892) - http://www.bohemiancoding.com/sketch -->
+    <title>Cross 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="50.0479445%" id="radialGradient-1">
+            <stop stop-color="#656565" offset="0%"></stop>
+            <stop stop-color="#3D3D3D" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Desktop" sketch:type="MSArtboardGroup" transform="translate(-680.000000, -88.000000)">
+            <g id="Documents" sketch:type="MSLayerGroup" transform="translate(-3.000000, 28.000000)">
+                <g id="Document-1" transform="translate(33.000000, 0.000000)" sketch:type="MSShapeGroup">
+                    <g id="Cross-2" transform="translate(590.000000, 0.000000)">
+                        <circle id="Oval-2" fill="#1E1E1E" cx="75" cy="75" r="15"></circle>
+                        <path d="M79.6045362,69.1403592 L75.5020012,73.2428942 L75.5020012,73.2428942 L71.397948,69.138841 C70.6767015,69.5794556 70.0417327,70.1329099 69.5218298,70.7723347 L73.7471953,74.9977001 L69.5197676,79.2251278 C70.0394566,79.8648914 70.6742898,80.4186902 71.3954638,80.8596408 L75.5022999,76.7528047 L79.6073901,80.8578949 C80.3282146,80.416721 80.9626895,79.8627725 81.482026,79.222919 L77.2571058,74.9979988 L81.4802324,70.7748722 C80.9605434,70.1351086 80.3257102,69.5813098 79.6045362,69.1403592 Z" id="Oval-3" fill="url(#radialGradient-1)"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

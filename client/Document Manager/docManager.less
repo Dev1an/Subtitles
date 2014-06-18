@@ -1,0 +1,28 @@
+ul{
+	padding: 0 1.5em;
+	padding-right: 0.4em;
+	margin: 0;
+	
+	li{
+		list-style: none;
+		
+		padding: 0.4em 0;
+		
+		&.form{
+			display: none;
+		}
+				
+		//every document except the first
+		&:not(:first-child){
+			border-top: 2px solid #313131;
+		}
+
+		& > * {
+			vertical-align: middle;
+		}
+		
+		img{
+			float: right;
+		}
+	}
+}

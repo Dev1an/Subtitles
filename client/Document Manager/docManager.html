@@ -1,0 +1,15 @@
+<template name="docManager">
+	<section class="toolbar">
+		<img src="Plus.png" alt="New Document" class="newDocument">
+	</section>
+	<main>
+		<ul>
+			<li class="form">
+				<span class="name" contenteditable="true">Name</span>
+			</li>
+			{{#each document}}
+				{{> doc}}
+			{{/each}}
+		</ul>
+	</main>
+</template>
