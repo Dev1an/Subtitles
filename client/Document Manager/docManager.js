@@ -19,6 +19,9 @@ Template.docManager.events({
 		nameField.innerText = "Name";
 		init = true;
 		safe = false;
+		
+		// blur any selected document
+		deSelect();
 	},
 	'keydown .form .name': function(event, template) {
 		if (init) {
@@ -38,6 +41,7 @@ Template.docManager.events({
 		// key: Escape
 		else if (event.which == 27) {
 			event.target.blur();
+			event.preventDefault;
 		}
 		
 		// key: Delete

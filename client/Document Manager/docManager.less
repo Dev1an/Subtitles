@@ -1,22 +1,46 @@
 ul{
-	padding: 0 1.5em;
-	padding-right: 0.4em;
+	padding: 0;
 	margin: 0;
 	
 	li{
 		list-style: none;
 		
-		padding: 0.4em 0;
+		padding: 0.4em 1.5em;
+		padding-right: 0.5em;
+		padding-bottom: 0.5em;
 		
 		&.form{
 			display: none;
+			border-bottom: 2px solid #313131;
 		}
-				
+		
 		//every document except the first
-		&:not(:first-child){
-			border-top: 2px solid #313131;
+		&:nth-child(n+3):before{
+			content: '';
+			height: 2px;
+			display: block;
+			background-color: #313131;
+			
+			position: relative;
+			top: -0.4em;
+			margin-right: 39px;
+		}
+		
+		.name:not([contenteditable=true]){
+			-webkit-user-select: none;
+			cursor: default;
 		}
 
+		&.selected {
+			background-color: rgba(0, 0, 0, 0.15);
+			color: #C2DAFC;
+			text-shadow: rgba(0, 0, 0, 0.81) 0 1px 0, rgba(44, 188, 240, 0.63) 0 1px 8px;
+			
+			&:before{
+				background-color: transparent;
+			}
+		}
+				
 		& > * {
 			vertical-align: middle;
 		}

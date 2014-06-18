@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Laag_1" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 50 36"
+	 enable-background="new 0 0 50 36" xml:space="preserve">
+<filter  x="-50%" id="filter-2" filterUnits="objectBoundingBox" y="-50%" width="200%" height="200%">
+	<feOffset  result="shadowOffsetOuter1" in="SourceAlpha" dy="2" dx="0"></feOffset>
+	<feGaussianBlur  result="shadowBlurOuter1" in="shadowOffsetOuter1" stdDeviation="2"></feGaussianBlur>
+
+		<feColorMatrix  result="shadowMatrixOuter1" in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.163408628 0" type="matrix">
+		</feColorMatrix>
+	<feMerge>
+		<feMergeNode  in="shadowMatrixOuter1"></feMergeNode>
+		<feMergeNode  in="SourceGraphic"></feMergeNode>
+	</feMerge>
+</filter>
+<title>Plus</title>
+<desc>Created with Sketch.</desc>
+<g id="Welcome" sketch:type="MSPage">
+	<g id="Desktop" transform="translate(-29.000000, -13.000000)" sketch:type="MSArtboardGroup" filter="url(#filter-2)">
+		<g id="Plus_1_" transform="translate(29.000000, 13.000000)" sketch:type="MSLayerGroup">
+			<g id="Rectangle-22_1_" sketch:type="MSShapeGroup">
+
+					<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-68.8983" y1="113.963" x2="-68.8983" y2="112.963" gradientTransform="matrix(16.0809 0 0 -16.0809 1133.1187 1842.8881)">
+					<stop  offset="0" style="stop-color:#C3C3C3"/>
+					<stop  offset="0.4966" style="stop-color:#B0B0B0"/>
+					<stop  offset="0.5031" style="stop-color:#A5A5A5"/>
+					<stop  offset="1" style="stop-color:#A8A8A8"/>
+				</linearGradient>
+				<path fill="url(#SVGID_1_)" d="M23.5,16.7v-6.4h3.3v6.4h6.4v3.3h-6.4v6.4h-3.3v-6.4h-6.4v-3.3H23.5z"/>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>
