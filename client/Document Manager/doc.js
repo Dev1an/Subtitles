@@ -16,11 +16,11 @@ Template.doc.events({
 	},
 	'click .name': function(event, template) {
 		var selection = isSelected(this._id);
-		if (selection && (new Date())-selection.time>800) {
+		if (selection && (new Date())-selection.time>500) {
 			setTimeout(function() {
 				event.target.contentEditable = true;
 				event.target.focus();
-			}, 800);
+			}, 500);
 		}
 	},
 	'blur .name': function(event, template) {
