@@ -24,11 +24,6 @@ Template.docManager.events({
 		deSelect();
 	},
 	'keydown .form .name': function(event, template) {
-		if (init) {
-			event.target.innerText = "";
-			init = false
-		}
-		
 		// key: Return
 		if (event.which == 13) {
 			// Prevent a the insertion of a 'new line' character
@@ -47,6 +42,12 @@ Template.docManager.events({
 		// key: Delete
 		else if (event.which == 8 && event.target.innerText=="\n") {
 			event.preventDefault();
+		}
+	},
+	'keypress': function() {
+		if (init) {
+			event.target.innerText = "";
+			init = false
 		}
 	},
 	'blur .form .name': function(event, template) {
