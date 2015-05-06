@@ -1,4 +1,7 @@
-Router.map(function() {
-	this.route('docManager', {path: '/'});
-	this.route('editor');
+Router.route('/', function () {
+  this.render('docManager');
+});
+
+Router.route('/editor', function () {
+  this.render('editor');
 });

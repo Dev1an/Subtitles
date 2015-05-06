@@ -6,6 +6,5 @@
 standard-app-packages
 autopublish
 insecure
-iron-router
 less
-keymaster
+iron:router

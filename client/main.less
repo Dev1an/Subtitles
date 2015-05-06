@@ -58,6 +58,10 @@ body {
 				background-image: url("../Plus.png");
 				background-size: 50px 36px;
 			}
+			
+			&.springboard:before{
+				content: '';
+			}
 
 			&:not(:first-child){
 				border-left: 1px solid rgba(1, 1, 1, 0.31);
@@ -68,6 +72,7 @@ body {
 
 main {
 	background-color: @mainBgColor;
+	display: block;
 }
 
 button{

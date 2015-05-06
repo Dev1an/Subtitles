@@ -12,7 +12,7 @@ Template.doc.events({
 			setSelection(this._id);
 	},
 	'dblclick .document': function(event, template) {
-		console.log("open "+this.name);
+		Router.go('editor');
 	},
 	'click .name': function(event, template) {
 		var selection = isSelected(this._id);

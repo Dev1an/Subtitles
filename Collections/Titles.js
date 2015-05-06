@@ -1,0 +1,1 @@
+Titles = new Mongo.Collection('titles')
