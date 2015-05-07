@@ -12,7 +12,8 @@ Template.doc.events({
 			setSelection(this._id);
 	},
 	'dblclick .document': function(event, template) {
-		Router.go('editor', {document: this._id});
+		if (template.find('.name').contentEditable != 'true')
+			Router.go('editor', {document: this._id});
 	},
 	'click .name': function(event, template) {
 		var selection = isSelected(this._id);
