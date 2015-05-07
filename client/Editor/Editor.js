@@ -21,11 +21,18 @@ Template.editor.events({
 			// Prevent a the insertion of a 'new line' character
 			event.preventDefault();
 			
+			var lastTitle = Titles.findOne({document: this.document._id}, {sort: {order: -1}})
+			if (lastTitle == undefined) {
+				var index = 0;
+			} else {
+				var index = lastTitle.order+1
+			}
 
 			console.log(this)
 			Titles.insert({
 				content: event.currentTarget.value,
-				document: this.document._id
+				document: this.document._id,
+				order: index
 			});
 
 			event.target.value = ""

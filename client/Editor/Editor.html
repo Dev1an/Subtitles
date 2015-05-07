@@ -13,9 +13,11 @@
 			<li class="form">
 				<span class="name" contenteditable="true">Name</span>
 			</li>
-			{{#each titles}}
-				{{> title addEditMode this}}
-			{{/each}}
+			<div>
+				{{#sortable items=titles}}
+					{{> title addEditMode this}}
+				{{/sortable}}
+			</div>
 			<li class="title add">
 				<span class="name"><input type="text"></span>
 			</li>
