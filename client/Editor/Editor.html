@@ -10,17 +10,16 @@
 	</section>
 	<main>
 		<ul>
-			<li class="form">
-				<span class="name" contenteditable="true">Name</span>
-			</li>
-			<div>
-				{{#sortable items=titles}}
-					{{> title addEditMode this}}
-				{{/sortable}}
-			</div>
+			{{#sortable items=titles}}
+				{{> title addEditMode this}}
+			{{/sortable}}
+		</ul>
+		<ul>
+			
 			<li class="title add">
 				<span class="name"><input type="text"></span>
 			</li>
+
 		</ul>
 	</main>
 </template>
