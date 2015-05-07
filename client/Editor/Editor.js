@@ -26,7 +26,9 @@ Template.editor.events({
 			Titles.insert({
 				content: event.currentTarget.value,
 				document: this.document._id
-			})
+			});
+
+			event.target.value = ""
 			
 			event.target.blur();
 		}
