@@ -2,9 +2,10 @@
 	<section class="toolbar">
 		<div class="btn-group">
 			<button class="springboard" onclick="Router.go('/')">Documents</button>
-		</div>
+			<button class="editMode {{editMode}}">Edit</button>
+		</div>		
 		<div class="btn-group">
-			<button class="editMode">Edit</button>
+			<button class="insert">Insert</button>
 		</div>		
 	</section>
 	<main>
@@ -13,9 +14,9 @@
 				<span class="name" contenteditable="true">Name</span>
 			</li>
 			{{#each titles}}
-				{{> title}}
+				{{> title addEditMode this}}
 			{{/each}}
-			<li class="title">
+			<li class="title add">
 				<span class="name"><input type="text"></span>
 			</li>
 		</ul>
