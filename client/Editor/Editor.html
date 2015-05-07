@@ -10,7 +10,7 @@
 	</section>
 	<main>
 		<ul>
-			{{#sortable items=titles}}
+			{{#sortable items=titles handle=".moveHandle" animation=150}}
 				{{> title addEditMode this}}
 			{{/sortable}}
 		</ul>
